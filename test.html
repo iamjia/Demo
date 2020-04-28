@@ -3,7 +3,16 @@
 <html>
 
 <body>
-<meta http-equiv="refresh" content="3;URL=www.baidu.com">
+<script type="text/javascript">
+        window.onload=function(){
+                setTimeout(go, 3000);
+        };
+ 
+        function go(){
+            location.href="www.baidu.com";
+        }
+    </script>
+
 <script>
 function hello(){
     alert("hello");
